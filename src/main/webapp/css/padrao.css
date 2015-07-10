@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+div.login {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 40px;
+	background-color: transparent;
+}
+
+div.login div {
+	padding: 5px;
+}
+
+table.lista {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: white;
+	font-size: large;
+}
+
+table.lista td, th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+}
+
+table.cadastro {
+	width: 95%;
+	background-color: f8f8ff;
+	border: 0;
+	/*
+	cellspacing="0" cellpadding="5"
+	*/	
+}
+
+.error {
+	color: red;
+}

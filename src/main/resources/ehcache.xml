@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="true" 
+         monitoring="autodetect"
+         dynamicConfig="true"> 
+
+	<diskStore path="java.io.tmpdir"/>
+
+    <defaultCache 
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU"
+            /> 
+            
+     <cache name="BUSINESS_CATEGORY_CACHE"
+     		maxElementsInMemory="50"
+            eternal="false"
+            timeToIdleSeconds="600"
+            timeToLiveSeconds="600"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <cache name="CITY_CACHE"
+     		maxElementsInMemory="50"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <cache name="STATE_CACHE"
+     		maxElementsInMemory="50"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <cache name="RANGE_CACHE"
+     		maxElementsInMemory="50"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <cache name="GALLERY_IMAGE_CACHE"
+     		maxElementsInMemory="100"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            overflowToDisk="true"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <cache name="IMAGE_CACHE"
+     		maxElementsInMemory="100"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            overflowToDisk="true"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+</ehcache> 

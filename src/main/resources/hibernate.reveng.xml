@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="biblioteca" match-name="bloquear_material_bibliografico"/>
+  <table-filter match-catalog="biblioteca" match-name="emprestar_material_bibliografico"/>
+  <table-filter match-catalog="biblioteca" match-name="grupo_usuario"/>
+  <table-filter match-catalog="biblioteca" match-name="grupo_usuario_permissao"/>
+  <table-filter match-catalog="biblioteca" match-name="material_bibliografico"/>
+  <table-filter match-catalog="biblioteca" match-name="permissao"/>
+  <table-filter match-catalog="biblioteca" match-name="reservar_material_bibliografico"/>
+  <table-filter match-catalog="biblioteca" match-name="solicitar_reserva"/>
+  <table-filter match-catalog="biblioteca" match-name="tipo_material_bibliografico"/>
+  <table-filter match-catalog="biblioteca" match-name="usuario"/>
+</hibernate-reverse-engineering>

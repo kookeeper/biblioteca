@@ -1,0 +1,12 @@
+ALTER SCHEMA `biblioteca`  DEFAULT CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE bloquear_material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE emprestar_material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE grupo_usuario CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE grupo_usuario_permissao CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE local_material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE permissao CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE reservar_material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE solicitar_reserva CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE tipo_material_bibliografico CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
+ALTER TABLE usuario CONVERT TO CHARACTER SET big5 COLLATE big5_chinese_ci;
